@@ -40,3 +40,27 @@
 .read-the-docs {
   color: #888;
 }
+
+#answer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+
+  & svg {
+    width: 1.7rem;
+    position: relative;
+    top: 2px;
+  }
+
+  &:has(.red) {
+    filter: brightness(0) saturate(100%) invert(73%) sepia(27%) saturate(2139%)
+      hue-rotate(308deg) brightness(85%) contrast(84%);
+  }
+
+  &:has(.green) {
+    filter: brightness(0) saturate(100%) invert(84%) sepia(21%) saturate(756%)
+      hue-rotate(48deg) brightness(92%) contrast(90%);
+  }
+}
