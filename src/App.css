@@ -1,8 +1,9 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  min-height: 600px;
+  max-width: 360px;
 }
 
 .logo {
@@ -44,13 +45,16 @@
 #answer {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
   text-decoration: underline;
   text-underline-offset: 5px;
+  font-size: 1.5rem;
 
   & svg {
     width: 1.7rem;
     position: relative;
+    flex-shrink: 0;
     top: 2px;
   }
 

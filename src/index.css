@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -28,11 +30,15 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-family: 'Roboto';
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 3.9em;
   line-height: 1.1;
+  width: 200px;
+  text-align: start;
+  font-family: 'Inter';
 }
 
 button {
@@ -65,4 +71,11 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+input {
+  font-family: 'Roboto';
+  font-size: 2rem;
+  font-weight: 200;
+  padding: 5px 10px;
 }
