@@ -3,7 +3,7 @@
 // Reverses the input and returns true if it matched the phrase
 // Otherwise, returns false
 export const isPalindrome = (phrase: string): boolean => {
-    return phrase.split('').reverse().join('') === phrase;
+    return formatPhrase(phrase).split('').reverse().join('') === phrase;
 }
 
 
